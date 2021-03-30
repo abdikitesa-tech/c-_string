@@ -26,6 +26,8 @@ int countWords(char one[sizeStr], int sizeStr) // char array, array length;
             if (one[i] == ' ')
             {
                 count++;
+               While (one[i] == 'a' || one[i] == 'e'||one[i] == 'i'||one[i] == 'o'||one[i] == 'u'one[i] == 'A' || one[i] == 'E'||one[i] == 'I'||one[i] == 'O'||one[i] == 'U')
+               ctrVowel++;
             }
         }
     }
